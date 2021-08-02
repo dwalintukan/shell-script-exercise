@@ -5,7 +5,7 @@
 1. Add the provided SSH key to your SSH agent
 2. Login to the EC2 instance
 
-## Exercise
+## Exercise (Part 1)
 
 Create a shell script to do the following:
 
@@ -20,6 +20,11 @@ Create a shell script to do the following:
 3. Copy the NextJS files in `/sample-app` to `/var/www/app/html` on a running EC2 instance.
 4. Create a process that will run the command `yarn start` in `/var/www/app/html` as a background job on every restart of the EC2 instance.
 5. Ensure the nginx web server is always running.
+
+## Exercise (Part 2)
+
+1. Implement your own logging of the nginx web server to a flat file.
+2. Implement a way to monitor the uptime of the web server and to be alerted when there is a downtime.
 
 ## Thoughts
 
